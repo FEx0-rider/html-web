@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    background-color: #8AE9C1;
+    
+}
+div {
+    border: 20px;
+    border-radius: 25%;
+}
+h1 {
+    color: #3B7080;
+    font-family: Brush Script MT;
+}
+p::before {
+    color: blue
+}
+p::after {
+    color: lime;
+}
+ul {
+    list-style:none;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 25px;
+}
+li {
+    float: left;
+
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+
+}
+li a:hover {
+    background-color: gray;
+}
+.prvni {
+    float: left;
+    display: block;
+    border-radius: 25px;
+    background-color: red;
+    padding: 15px;
+    width: 40%;
+}
+.druhe {
+    float: right;
+    display: block;
+    border-radius: 25px;
+    background-color: red;
+    padding: 15px;
+    width: 40%;
+}
